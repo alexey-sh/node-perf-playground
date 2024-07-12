@@ -10,6 +10,12 @@ docker run kek
 | vscale** |	960 |	975 |	975 |	960 |	967,5 |	979 |
 | WSL2*** | 915 |	915 |	900 |	855 |	896,25 |	891,75 |
 
+```
+# to start 60 minutes test
+# the results in the table are divided by 60
+docker run -e TIME2WORK=3600000 kek
+```
+
 \* Cloud-40 (2 x 3.3 ГГц CPU • 2 Гб RAM • 40 Гб NVMe)
 
 \** Cloud 1 cpu (Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz)
